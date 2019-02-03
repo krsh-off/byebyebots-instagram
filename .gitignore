@@ -1,0 +1,19 @@
+#Setup
+__pycache__/
+Makefile
+
+# Packages
+*.egg
+*.egg-info
+dist
+build
+eggs
+parts
+sdist
+develop-eggs
+.installed.cfg
+
+# Misc
+*~
+.*~
+.DS_Store

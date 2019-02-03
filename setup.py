@@ -2,8 +2,8 @@
 
 import sys
 major, minor = sys.version_info[0:2]
-if major != 3 or minor < 7:
-    print('ByeByeBots requires Python 3.7.x')
+if major != 3:
+    print('ByeByeBots requires Python 3')
     sys.exit(1)
 
 with open('requirements.txt') as f:

@@ -23,7 +23,8 @@ The logic is straighforward:
 3. Unsubscribe from you accounts with more than _N_ subscriptions
 
 ## Installation
-The tool requires Python 3.7.x. To install the package from PyPi run:
+The tool was developed and tested with Python 3.7.1, but it should be fine with any 3.x.x. 
+To install the package from PyPi run:
 ```
 pip3 install byebyebots
 ```

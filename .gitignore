@@ -1,3 +1,7 @@
+#Automation
+*.out
+*.app
+
 #Setup
 __pycache__/
 Makefile

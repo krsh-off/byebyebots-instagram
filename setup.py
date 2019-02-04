@@ -27,6 +27,7 @@ setup(
     author_email='krasherspost@gmail.com',
     url='https://github.com/VikGit/byebyebots-instagram.git',
     keywords='instagram bots unsubscribe',
+    zip_safe=False,
     packages=['byebyebots'],
     install_requires=requires,
     entry_points=entry_points,

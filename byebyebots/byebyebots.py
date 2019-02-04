@@ -123,6 +123,8 @@ def following_count(user, retry=True):
             wait = randint(REQ_INTERVAL[0], REQ_INTERVAL[1])
             print('--- take a rest, {0} sec ---'.format(wait))
             time.sleep(wait)
+        else:
+            print('Unhandled error:', err)
         if retry:
             result = following_count(user, False)[1]
     finally:
@@ -157,6 +159,8 @@ def remove_follower(api, user, retry=True):
             wait = randint(REQ_INTERVAL[0], REQ_INTERVAL[1])
             print('--- take a rest, {0} sec ---'.format(wait))
             time.sleep(wait)
+        else:
+            print('Unhandled error:', err)
         if retry:
             result = remove_follower(api, user, False)[1]
     finally:

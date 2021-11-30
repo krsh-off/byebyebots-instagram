@@ -72,10 +72,10 @@ byebyebots --dryrun
 
 Run in non-interactive mode. Remove `--dryrun` option to proceed with unsubscribing. 
 ```
-goodbyebots -u instagram_login -p instagram_password --yes --dryrun
+byebyebots -u instagram_login -p instagram_password --yes --dryrun
 ```
 In case you decide to run this tool by schedule, it supports email notifications. First, you'll need to create a mailbox for service user - from who you'll receive notifications. If you select Gmail, you'll probably need to [allow this script](https://support.google.com/accounts/answer/6010255) to use that mailbox. 
 When done, pass service-user credentials to the script and specify your own email - to which you'll send notifications. Remove `--dryrun` option to proceed with unsubscribing.
 ```
-goodbyebots --email_sender_user sender_login@gmail.com --email_sender_pass sender_pass --email_recipient myemail@gmail.com -u instagram_login -p instagram_password --yes --dryrun
+byebyebots --email_sender_user sender_login@gmail.com --email_sender_pass sender_pass --email_recipient myemail@gmail.com -u instagram_login -p instagram_password --yes --dryrun
 ```
